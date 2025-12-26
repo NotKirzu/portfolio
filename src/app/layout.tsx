@@ -2,7 +2,7 @@ import { ThemeProvider } from '@/components/provider/theme'
 import Background from '@/components/ui/background'
 import Navbar from '@/components/navbar/component'
 
-import { type Metadata } from 'next'
+import { Viewport, type Metadata } from 'next'
 import { Geist } from 'next/font/google'
 
 import './globals.css'
@@ -12,9 +12,14 @@ const geistFont = Geist({
   variable: '--font-geist',
 })
 
-const title = 'Ricardo ~ Developer'
+const title = 'Ricardo - Developer'
 const description = "I'm Ricardo 👋 ~ Developer"
 const url = 'https://krzu.me'
+
+export const viewport: Viewport = {
+  initialScale: 1,
+  themeColor: '#9810fa',
+}
 
 export const metadata: Metadata = {
   title,
@@ -40,9 +45,9 @@ export const metadata: Metadata = {
     'pufferfish',
   ],
   openGraph: {
-    title,
-    description,
-    siteName: title,
+    title: 'Portfolio',
+    description: 'My personal portfolio made with Next.js and TailwindCSS. 👋',
+    siteName: 'Ricardo Moreno',
     url,
     type: 'website',
   },
