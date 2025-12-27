@@ -336,7 +336,7 @@ export default function RicardoPortfolio() {
       </section>
 
       <section className="max-w-6xl mx-auto px-6 py-24 border-t border-white/5">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+        <div className="flex flex-col md:flex-row justify-between mb-12 gap-6">
           <div className="space-y-2">
             <h2 className="text-sm font-mono text-purple-600 dark:text-purple-400 mb-8 uppercase tracking-[0.2em]">
               03 // My Work
