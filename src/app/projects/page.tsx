@@ -18,21 +18,12 @@ interface Project {
 
 const PROJECTS_DATA: Project[] = [
   {
-    name: 'Backyard Games',
-    icon: 'https://cdn.discordapp.com/icons/1409701197744705558/aed28746d2e3b8061bb0f4542e354985.png?size=1024',
-    banner: '/byg-banner.png',
-    description:
-      'A small Roblox studio creating fun, unique, and accessible games.',
-    timestamps: { Founder: new Date('08/30/25') },
-    source: 'https://github.com/BACKYARDGAMESTUDIO',
-  },
-  {
     name: 'HibiscusMC',
     description:
       'HibiscusMC is a Minecraft survival server focused on enhancing the classic survival experience with innovative mechanics. No mods required.',
     icon: 'https://cdn.discordapp.com/icons/705536209694359683/16188193a73413586673a7290bd9f1bc.png?size=1024',
     banner: 'https://cdn1.hibiscuscreative.studio/hmc_kitchen_splash_store.png',
-    timestamps: { Developer: new Date('10/26/24') },
+    timestamps: { 'Lead Developer': new Date('01/09/26'), Developer: new Date('10/26/24') },
     homepage: 'https://discord.gg/HibiscusMC',
     source: 'https://github.com/HibiscusMC',
   },
@@ -58,7 +49,7 @@ const PROJECTS_DATA: Project[] = [
     name: 'Shiba ♡ サーバー     Social & Anime',
     icon: 'https://cdn.discordapp.com/icons/578693342871814144/a_109a270907adc6a302b67279901034b4.gif?size=1024',
     banner:
-      'https://cdn.discordapp.com/discovery-splashes/578693342871814144/6ff09453b32489207666e46c24e3e517.jpg?size=4096',
+      'https://cdn.discordapp.com/banners/578693342871814144/b233c5718468e3513476eb476f153236.webp?size=4096',
     description:
       'A Spanish-speaking Discord community where people come together to hang out, play games, share ideas, and enjoy a friendly, welcoming vibe.',
     timestamps: {
