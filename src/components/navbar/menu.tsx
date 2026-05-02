@@ -31,8 +31,13 @@ const LINKS = [
   },
   {
     name: 'PayPal',
-    href: 'https://paypal.me/KirzuDev',
+    href: 'https://paypal.me/KzRick',
     icon: 'hugeicons:paypal',
+  },
+  {
+    name: 'AirTM',
+    href: 'https://airtm.me/kirzu',
+    icon: 'tabler:cash-banknote-filled',
   },
 ]
 
